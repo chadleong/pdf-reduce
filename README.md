@@ -2,6 +2,20 @@
 
 This script compresses a PDF file using Ghostscript. It supports various compression levels and can be run on both Windows and Linux.
 
+# Installation
+
+1.  Install [Ghostscript](https://ghostscript.com/releases/gsdnld.html)
+
+2.  Ensure Ghostscript is in Your System PATH
+    If you didn't select the option to add Ghostscript to your PATH during installation, you can add it manually.
+
+    a. Locate the Ghostscript Executable
+    The default installation path is usually:
+
+         `C:\Program Files\gs\gs9.xx\bin`
+
+         Replace gs9.xx with your actual Ghostscript version number.
+
 ## Usage
 
 To compress a PDF file, run the following command:
